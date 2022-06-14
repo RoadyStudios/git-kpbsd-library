@@ -36,9 +36,14 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'kpbsdlibrary' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<?php get_template_part( 'template-parts/header/custom_header' ); ?>
-
 		<?php get_template_part( 'template-parts/header/navigation' ); ?>
 
-		<?php get_template_part( 'template-parts/header/branding' ); ?>
+		<?php
+		if ( is_front_page() ) {
+			get_template_part( 'template-parts/header/branding-front-page', get_post_type() );
+		} else {
+			get_template_part( 'template-parts/header/branding', get_post_type() );
+		}
+		?>
+
 	</header><!-- #masthead -->
