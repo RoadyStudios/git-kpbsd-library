@@ -64,7 +64,7 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Primary', 'kpbsdlibrary' ),
 					'slug'  => 'theme-primary',
-					'color' => 'var(--color-theme-primary)',
+					'color' => '#002856',
 				),
 				array(
 					'name'  => __( 'Secondary', 'kpbsdlibrary' ),
