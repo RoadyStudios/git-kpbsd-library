@@ -64,12 +64,17 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Primary', 'kpbsdlibrary' ),
 					'slug'  => 'theme-primary',
-					'color' => '#e36d60',
+					'color' => 'var(--color-theme-primary)',
 				),
 				array(
 					'name'  => __( 'Secondary', 'kpbsdlibrary' ),
 					'slug'  => 'theme-secondary',
-					'color' => '#41848f',
+					'color' => '#fcc527',
+				),
+				array(
+					'name'  => __( 'Accent', 'kpbsdlibrary' ),
+					'slug'  => 'theme-accent',
+					'color' => '#65b2e8',
 				),
 				array(
 					'name'  => __( 'Red', 'kpbsdlibrary' ),

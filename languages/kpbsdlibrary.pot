@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Amos Roady\n"
-"POT-Creation-Date: 2022-06-15 22:18+0000\n"
+"POT-Creation-Date: 2022-06-15 22:37+0000\n"
 "Report-Msgid-Bugs-To: KPBSD Library\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -76,70 +76,74 @@ msgid "Secondary"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:75
-msgid "Red"
+msgid "Accent"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:80
-msgid "Green"
+msgid "Red"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:85
-msgid "Blue"
+msgid "Green"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:90
-msgid "Yellow"
+msgid "Blue"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:95
-msgid "Black"
+msgid "Yellow"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:100
-msgid "Grey"
+msgid "Black"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:105
-msgid "White"
+msgid "Grey"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:110
-msgid "Dusty daylight"
+msgid "White"
 msgstr ""
 
 #: ../kpbsdlibrary/inc/Editor/Component.php:115
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../kpbsdlibrary/inc/Editor/Component.php:120
 msgid "Dusty sun"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:132
+#: ../kpbsdlibrary/inc/Editor/Component.php:137
 msgid "Small"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:133
+#: ../kpbsdlibrary/inc/Editor/Component.php:138
 msgid "S"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:138
+#: ../kpbsdlibrary/inc/Editor/Component.php:143
 msgid "Medium"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:139
+#: ../kpbsdlibrary/inc/Editor/Component.php:144
 msgid "M"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:144
+#: ../kpbsdlibrary/inc/Editor/Component.php:149
 msgid "Large"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:145
+#: ../kpbsdlibrary/inc/Editor/Component.php:150
 msgid "L"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:150
+#: ../kpbsdlibrary/inc/Editor/Component.php:155
 msgid "Larger"
 msgstr ""
 
-#: ../kpbsdlibrary/inc/Editor/Component.php:151
+#: ../kpbsdlibrary/inc/Editor/Component.php:156
 msgid "XL"
 msgstr ""
 
