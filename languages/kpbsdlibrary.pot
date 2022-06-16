@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Amos Roady\n"
-"POT-Creation-Date: 2022-06-16 23:07+0000\n"
+"POT-Creation-Date: 2022-06-16 23:13+0000\n"
 "Report-Msgid-Bugs-To: KPBSD Library\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -266,13 +266,13 @@ msgid "by %s"
 msgstr ""
 
 #. translators: %s: post parent title
-#: ../kpbsdlibrary/template-parts/content/entry_meta.php:105
+#: ../kpbsdlibrary/template-parts/content/entry_meta.php:103
 msgctxt "post parent"
 msgid "In %s"
 msgstr ""
 
 #. translators: %s: post parent title
-#: ../kpbsdlibrary/template-parts/content/entry_meta.php:108
+#: ../kpbsdlibrary/template-parts/content/entry_meta.php:106
 msgctxt "post parent"
 msgid "in %s"
 msgstr ""
