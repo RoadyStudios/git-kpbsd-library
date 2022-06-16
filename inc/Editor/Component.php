@@ -79,7 +79,7 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Red', 'kpbsdlibrary' ),
 					'slug'  => 'theme-red',
-					'color' => '#C0392B',
+					'color' => '#e1402a',
 				),
 				array(
 					'name'  => __( 'Green', 'kpbsdlibrary' ),
@@ -89,12 +89,17 @@ class Component implements Component_Interface {
 				array(
 					'name'  => __( 'Blue', 'kpbsdlibrary' ),
 					'slug'  => 'theme-blue',
-					'color' => '#2980B9',
+					'color' => '#00b6ef',
 				),
 				array(
 					'name'  => __( 'Yellow', 'kpbsdlibrary' ),
 					'slug'  => 'theme-yellow',
-					'color' => '#F1C40F',
+					'color' => '#fcc527',
+				),
+				array(
+					'name'  => __( 'Kenai', 'kpbsdlibrary' ),
+					'slug'  => 'theme-kenai',
+					'color' => '#3fd2c7',
 				),
 				array(
 					'name'  => __( 'Black', 'kpbsdlibrary' ),
