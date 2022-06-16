@@ -68,6 +68,14 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 		<?php
 	}
 
+	?>
+	<span class="taxonomies">
+		<?php
+		get_template_part( 'template-parts/content/entry_taxonomies', get_post_type() );
+		?>
+	</span>
+	<?php
+
 	if ( ! empty( $author_string ) ) {
 		?>
 		<span class="posted-by">
@@ -86,14 +94,6 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 		</span>
 		<?php
 	}
-
-	?>
-	<span class="taxonomies">
-		<?php
-		get_template_part( 'template-parts/content/entry_taxonomies', get_post_type() );
-		?>
-	</span>
-	<?php
 
 	if ( ! empty( $parent_string ) ) {
 		?>

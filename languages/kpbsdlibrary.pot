@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Amos Roady\n"
-"POT-Creation-Date: 2022-06-16 23:13+0000\n"
+"POT-Creation-Date: 2022-06-16 23:21+0000\n"
 "Report-Msgid-Bugs-To: KPBSD Library\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -254,13 +254,13 @@ msgid "Posted on %s"
 msgstr ""
 
 #. translators: %s: post author
-#: ../kpbsdlibrary/template-parts/content/entry_meta.php:76
+#: ../kpbsdlibrary/template-parts/content/entry_meta.php:84
 msgctxt "post author"
 msgid "By %s"
 msgstr ""
 
 #. translators: %s: post author
-#: ../kpbsdlibrary/template-parts/content/entry_meta.php:79
+#: ../kpbsdlibrary/template-parts/content/entry_meta.php:87
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
@@ -278,23 +278,23 @@ msgid "in %s"
 msgstr ""
 
 #. translators: separator between taxonomy terms
-#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:24
+#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:23
 msgctxt "list item separator"
 msgid ", "
 msgstr ""
 
 #. translators: %s: list of taxonomy terms
-#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:31
-msgid "Posted in %s"
+#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:30
+msgid "in %s"
 msgstr ""
 
 #. translators: %s: list of taxonomy terms
-#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:37
+#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:36
 msgid "Tagged %s"
 msgstr ""
 
 #. translators: %s: taxonomy name
-#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:44
+#: ../kpbsdlibrary/template-parts/content/entry_taxonomies.php:43
 msgid "%s:"
 msgstr ""
 

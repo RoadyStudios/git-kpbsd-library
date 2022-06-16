@@ -15,7 +15,6 @@ $taxonomies = wp_list_filter(
 );
 
 ?>
-<div class="entry-taxonomies">
 	<?php
 	// Show terms for all taxonomies associated with the post.
 	foreach ( $taxonomies as $taxonomy ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
@@ -28,7 +27,7 @@ $taxonomies = wp_list_filter(
 				$class            = 'category-links term-links';
 				$list             = get_the_category_list( esc_html( $separator ), '', $post->ID );
 				/* translators: %s: list of taxonomy terms */
-				$placeholder_text = __( 'Posted in %s', 'kpbsdlibrary' );
+				$placeholder_text = __( 'in %s', 'kpbsdlibrary' );
 				break;
 			case 'post_tag':
 				$class            = 'tag-links term-links';
@@ -61,4 +60,3 @@ $taxonomies = wp_list_filter(
 		<?php
 	}
 	?>
-</div><!-- .entry-taxonomies -->
