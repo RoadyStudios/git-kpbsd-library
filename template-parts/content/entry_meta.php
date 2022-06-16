@@ -87,6 +87,16 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 		<?php
 	}
 
+	if ( ! empty( $taxonomies ) ) {
+		?>
+		<span class="taxonomies">
+			<?php
+			get_template_part( 'template-parts/content/entry_taxonomies', get_post_type() );
+			?>
+		</span>
+		<?php
+	}
+
 	if ( ! empty( $parent_string ) ) {
 		?>
 		<span class="posted-in">
