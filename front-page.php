@@ -19,7 +19,7 @@ if ( is_home() ) {
 }
 
 ?>
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-home">
 		<?php
 
 		while ( have_posts() ) {
