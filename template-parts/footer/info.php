@@ -10,7 +10,7 @@ namespace WP_Rig\WP_Rig;
 ?>
 
 <div class="site-info">
-	<h2>Part of the Kenai Peninsula Borough School District</h2>
+	<h2>Kenai Peninsula Borough School District</h2>
 	<div class="site-footer-logo">
 		<a href="https://kpbsd.org" title="District Home"><img src="https://www.kpbsd.k12.ak.us/images/KPBSDLogo90.png" alt="KPBSD Logo"/></a>
 	</div>
