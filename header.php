@@ -28,9 +28,10 @@ namespace WP_Rig\WP_Rig;
 	?>
 
 	<?php wp_head(); ?>
+	<?php $site_id = get_current_blog_id(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body id="site-id-<?php echo $site_id; ?>" <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'kpbsdlibrary' ); ?></a>
