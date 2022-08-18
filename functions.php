@@ -74,7 +74,7 @@ add_filter( 'mime_types', 'webp_upload_mimes' );
 
 //enable preview / thumbnail for webp image files.
 function webp_is_displayable( $result, $path ) {
-	if ($result === false) {
+	if ( $result === false ) {
 		$displayable_image_types = array( IMAGETYPE_WEBP );
 		$info = @getimagesize( $path );
 
